@@ -1,14 +1,17 @@
 body {
   font-family: Roboto, sans-serif;
+  margin: 0px
 }
 
 .header {
   background: #1F2937;
 }
 
-.header-bar{
+.header-bar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
 }
 
 .header-logo {
@@ -22,6 +25,29 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
+  gap: 16px;
+}
+
+.header-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
+  gap: 35px;
+}
+
+.header-text {
+  max-width: 500px;
+}
+
+.header-text div {
+  margin-bottom: 16px;
+}
+
+.header-image {
+  height: 300px; 
+  width: auto;
+  flex: 1 1 auto;
 }
 
 a:link, .hero-secondary {
@@ -36,7 +62,7 @@ a:link {
 .hero {
   color: #F9FAF8;
   font-size: 48px;
-  font-weight:bolder;
+  font-weight: bolder;
 }
 
 button {

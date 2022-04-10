@@ -75,6 +75,7 @@ button {
   padding: 10px 30px;
   text-align: center;
   font-family: Roboto, sans-serif;
+  white-space: nowrap;
 }
 
 .info {
@@ -131,4 +132,29 @@ button {
 .quotee {
   font-weight: bold;
   font-size: 24px;
+}
+
+.signup-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 75px;
+}
+
+.signup-main {
+  background: #3882F6;
+  padding: 40px 90px;
+  width: 1000px;
+  display: flex;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.action-call {
+  color: #F9FAF8;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
 }

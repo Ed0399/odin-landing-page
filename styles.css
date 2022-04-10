@@ -12,6 +12,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 50px 100px;
+  gap: 30px;
 }
 
 .footer {
@@ -36,12 +37,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 100px;
+  padding: 50px;
   gap: 35px;
 }
 
 .header-text {
   max-width: 500px;
+  flex-shrink: 3;
 }
 
 .header-text div {
@@ -49,9 +51,10 @@ body {
 }
 
 .header-image {
-  height: 300px; 
-  width: auto;
-  flex: 1 1 auto;
+  height: auto;
+  max-height: 300px;
+  width: 100%;
+  flex-shrink: 1;
 }
 
 a:link, .hero-secondary {

@@ -3,15 +3,19 @@ body {
   margin: 0px
 }
 
-.header {
+.header, .footer {
   background: #1F2937;
 }
 
-.header-bar {
+.header-bar, .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 50px 100px;
+}
+
+.footer {
+  justify-content: center;
 }
 
 .header-logo {
